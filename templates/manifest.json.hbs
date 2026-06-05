@@ -1,0 +1,13 @@
+{
+  "title": "{{title}}",
+  "sampleRate": {{sampleRate}},
+  "channels": {{channels}},
+  "durationSec": {{durationSec}},
+  "waveform": "{{waveform}}",
+  "freqHz": {{freqHz}},
+  "notes": [
+    {{#each notes}}
+    { "timeSec": {{timeSec}}, "event": "{{event}}" }
+    {{/each}}
+  ]
+}
